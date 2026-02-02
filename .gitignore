@@ -1,0 +1,60 @@
+# Compiled Binaries
+*.exe
+*.out
+*.app
+*.o
+*.obj
+
+# C/C++ Build Artifacts
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# VS Code
+.vscode/
+!.vscode/c_cpp_properties.json
+
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+
+# Personal Notes
+notes.txt
+TODO.md
+scratch/
+
+# ========================================
+# Keep Important Files (negation rules)
+# ========================================
+# Keep WASM files
+!*.wasm
+!*.wat
+
+# Keep documentation
+!README.md
+!*.md
+
+# Keep screenshots
+!*.png
+!*.jpg
+!*.jpeg
+
+# Keep source code
+!*.cpp
+!*.c
+!*.h
+!*.py
+
+# Keep build scripts
+!*.bat
+!*.sh
