@@ -5,7 +5,7 @@ Date: 02/02/2026
 
 Problem: Calculate the sum of character values based on conversion rules.
 
-Answer: 12903
+Answer: 66903
 
 Explanation:
 The alphabetToNum function converts characters to numbers:
